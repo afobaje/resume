@@ -1,0 +1,24 @@
+.outlook{
+    display:flex;
+    // background-color: orange;
+    flex-direction: column;
+    padding:5em;
+    place-content: center;
+    place-items: center;
+}
+.hori{
+    gap:1em;
+    margin-top: .8em;
+    display: flex;
+}
+.add{
+    margin-top: .8em;
+    display: flex;
+    place-content: flex-start;
+    place-items: flex-start;
+    margin-left: -15em;
+
+}
+// .mockup{
+//     background-color: red;
+// }

@@ -1,0 +1,107 @@
+$primary-color:orange;
+
+.main-body{
+    display: flex;
+    padding:0 1em;
+    font-family: "Poppins", sans-serif;
+    flex-direction: column;
+    
+}
+.initials{
+    display: flex;
+    flex-direction: column;
+    
+    color: rgb(238, 175, 59);
+}
+.resumeheader{
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    
+   
+}
+.gear{
+    list-style: none;
+   
+    li{
+       h5{
+        display: flex;
+        flex-direction: row;
+       }
+        // place-content: space-between;
+        span{
+            margin-right:1em;
+            object-fit: cover;
+            display: flex;
+            flex-direction: column;
+            width:1.5em;
+            height:1.5em;
+            place-content: center;
+            padding: .5em;
+            border-radius: 100%;
+            background-color: orange;
+        }
+       
+    }
+    
+}
+
+.objective{
+    padding: 4em;
+}
+
+
+.skillshare{
+    padding:2em;
+    h2{
+        color:orange;
+        display: flex;
+        span{
+            // margin-right:1em;
+                object-fit: cover;
+                display: flex;
+                flex-direction: column;
+                width:1.7em;
+                height:1.7em;
+                place-content: center;
+                place-items: center;
+                // padding: .5em;
+                border-radius: 100%;
+                background-color: orange;
+        }
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        li{
+            padding:1em 0em;
+        }
+        li::marker{
+            color: orange;
+            // content:'\2022';
+            font-weight:bolder;
+            width:3em;
+        }
+        // color: orange;
+    }
+}
+
+.flow{
+    display:flex;
+    flex-direction: row;
+    place-content: space-evenly;
+    place-items: flex-start;
+
+}
+
+#john{
+    background-color: $primary-color;
+  padding: 1em;
+  border-radius: 30px;
+  cursor: pointer;
+  color: #fdfdfd;
+  font-weight: 700;
+  white-space: nowrap;
+  outline: none;
+  border:$primary-color;
+  margin:1em;
+}

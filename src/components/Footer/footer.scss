@@ -1,0 +1,35 @@
+$primary-color:orange;
+.footer{
+    font-family: 'Poppins',sans-serif;
+    padding: 3em;
+    flex-direction: column;
+    place-items: flex-start;
+    place-content:center;
+
+    display: flex;
+    ul{
+        list-style: none;
+        li{
+            padding: .5em 0em;
+            &:hover{
+                color:$primary-color;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+
+.afo{
+    display: flex;
+    padding:2em;
+    // flex-direction: column;
+    place-content: center;
+    place-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.afoid{
+    text-decoration: none;
+    color:$primary-color;
+    padding:.5em;
+}

@@ -1,0 +1,59 @@
+$primary-color: orange;
+
+.head{
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: flex-start;
+  place-content: flex-start;
+  flex-direction: column;
+  place-items: flex-start;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-between;
+  place-items: flex-start;
+
+  .logo {
+    padding: 1em;
+    width: 20%;
+    #palat{
+      color:#000;
+      text-decoration: none;
+    }
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    width: 60%;
+    flex-direction: row;
+    place-content: space-between;
+    place-items: flex-end;
+
+    li {
+      justify-items: space-between;
+      align-items: space-between;
+      align-self: baseline;
+      #russia {
+        color: #000;
+        text-decoration: none;
+      }
+    }
+  }
+}
+#russia:hover {
+  text-decoration: underline;
+}
+.resume {
+  background-color: $primary-color;
+  padding: 1em;
+  border-radius: 30px;
+  cursor: pointer;
+  color: #fdfdfd;
+  font-weight: 700;
+  white-space: nowrap;
+}

@@ -1,0 +1,23 @@
+.test{
+    padding:7em;
+    display: flex;
+    place-content: center;
+    font-family: Poppins, sans-serif;
+   
+    p{
+        font-size: 20px;
+        padding:0 10em;
+       
+    }
+    p::before{
+        content: '"';
+        font-size: 24px;
+        padding: .5em;
+        
+    }
+    p::after{
+        content: '"';
+        font-size: 30px;
+        padding: .5em;
+    }
+}

@@ -1,0 +1,37 @@
+$primary-color:orange;
+
+.content{
+    display:flex;
+    margin-top:3em;
+    font-family: 'Poppins', sans-serif;
+    padding: 1.5em;
+    justify-content: space-between;
+    flex-direction: row;
+    .sec1{
+        width:45%;
+        padding:1.5em;
+        button{
+            padding: 1.5em;
+            border-radius: 15px;
+            font-size:18px;
+            color: #fdfdfd;
+            font-weight:500;
+            background-color: $primary-color;
+            border:none;
+            #djibouti{
+                text-decoration: none;
+                color: #fdfdfd;
+            }
+        }
+    }
+    .sec2{
+        object-fit: cover;
+        width:45%;
+        img{
+            width:100%;
+            opacity: 0.5;
+            height:100%;
+            border-radius: 30px;
+        }
+    }
+}
